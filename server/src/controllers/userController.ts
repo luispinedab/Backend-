@@ -13,7 +13,7 @@ class UserController{
         if(unTipoUsuario.length>0){
             return res.json(unTipoUsuario[0]);
         }
-        res.status(440).json({text: 'El Registro no Existe'})
+        res.status(440).json({text: 'El Registro No Existe'})
     }      
     public async create (req:Request,res:Response){
    
